@@ -1,6 +1,6 @@
 # To Do List
 
-##### User generated to-do list., 8/5/2015
+##### User generated to-do list, 8/5/2015
 
 #### By Logan Wu & Jordan Johansen
 
