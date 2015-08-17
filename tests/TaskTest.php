@@ -28,5 +28,21 @@
             $result = Task::getAll();
             $this->assertEquals($test_task, $result[0]);
         }
+
+        function test_getAll()
+        {
+            $description = "Wash the dog";
+            $description2 = "Water the lawn";
+            $test_Task = new Task($description);
+            $test_Task->save();
+            $test_Task2 = new Task($description2);
+            $test_Task2->save();
+
+            $result = Task::getAll();
+
+            $this->assertEquals([$test_Task, $test_Task2], $result);
+        }
+
+        
     }
 ?>
