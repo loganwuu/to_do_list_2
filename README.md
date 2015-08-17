@@ -1,24 +1,28 @@
-# To Do List
+# To Do List 2
 
-##### User generated to-do list, 8/5/2015
+##### User generated to-do list implementing SQL and BDD, 8/5/2015
 
-#### By Logan Wu & Jordan Johansen
+#### By Logan Wu & Mike Rapp
 
 ## Description
 
-Allows user to create new tasks in a to-do list, view that list, and then delete said list.
+Allows user to create new tasks and new categories in a to-do list, view them, and then delete them.
 
 ## Setup
 
-Run on PHP server.
+* Open Terminal
+* Enter the web directory in count_repeat folder using terminal
+* Enter the following command into terminal 'php -S localhost:8000'
+* Open a web browser and type this into the address bar 'localhost:8000'
+* Requires Silex/Silex ~1.1 and Twig/Twig ~1.0 to be installed in the count_repeat project folder on the console by typing in "composer install" and then "composer update"
 
 ## Technologies Used
 
-PHP, Silex, Twig, HTML
+PHP, HTML, CSS, Silex, Twig, PHPUnit, Composer, SQL
 
 ### Legal
 
-Copyright (c) 2015 **Logan Wu & Jordan Johansen**
+Copyright (c) 2015 **Logan Wu & Mike Rapp**
 
 This software is licensed under the MIT license.
 
