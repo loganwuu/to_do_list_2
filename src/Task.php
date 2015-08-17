@@ -29,10 +29,16 @@ class Task
         $tasks = array();
         foreach($returned_tasks as $task) {
             $description = $task['description'];
+            $id = $task['id'];
             $new_task = new Task($description);
             array_push($tasks, $new_task);
         }
         return $tasks;
+    }
+
+    static function deleteAll()
+    {
+        $GLOBALS['DB']->exec("DELETE FROM tasks;");
     }
 }
 ?>
