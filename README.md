@@ -11,7 +11,7 @@ Allows user to create new tasks and new categories in a to-do list, view them, a
 ## Setup
 
 * Open Terminal
-* Enter the web directory in count_repeat folder using terminal
+* Enter the web directory in to_do_list folder using terminal
 * Enter the following command into terminal 'php -S localhost:8000'
 * Open a web browser and type this into the address bar 'localhost:8000'
 * Requires Silex/Silex ~1.1 and Twig/Twig ~1.0 to be installed in the count_repeat project folder on the console by typing in "composer install" and then "composer update"
