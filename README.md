@@ -1,6 +1,6 @@
 # To Do List 2
 
-##### User generated to-do list implementing SQL and BDD, 8/5/2015
+##### User generated to-do list implementing SQL and BDD (8/17/2015)
 
 #### By Logan Wu & Mike Rapp
 
