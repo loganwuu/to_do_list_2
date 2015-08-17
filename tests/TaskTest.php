@@ -65,5 +65,16 @@
             $result = Task::getAll();
             $this->assertEquals([], $result);
         }
+
+        function test_getId()
+        {
+            $description = "Wash the dog";
+            $id = 1;
+            $test_Task = new Task($description, $id);
+
+            $result = $test_Task->getId();
+
+            $this->assertEquals(1, $result);
+        }
     }
 ?>
